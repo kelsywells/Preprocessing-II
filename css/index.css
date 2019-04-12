@@ -135,6 +135,8 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  width: 800px;
+  margin-left: 10%;
 }
 h1,
 h2,
@@ -167,6 +169,20 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+header nav {
+  width: 40%;
+  display: flexbox;
+  justify-content: flex-end;
+  font-size: 16px;
+  margin-left: 60%;
+}
+header nav a {
+  padding: 8px;
+  color: black;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration: none;
 }
 .footer {
   width: 100%;
@@ -225,6 +241,15 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
-.home header {
-  font-size: 36px;
+header {
+  border-bottom: 2px dashed silver;
+  width: 100%;
+  font-size: 26px;
+  margin-top: 2%;
+}
+h2 {
+  margin-top: 2%;
+}
+p {
+  border-bottom: 2px dashed silver;
 }
